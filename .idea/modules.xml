@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/concurrency_in_practice/concurrency_in_practice.iml" filepath="$PROJECT_DIR$/concurrency_in_practice/concurrency_in_practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/javapit.iml" filepath="$PROJECT_DIR$/javapit.iml" />
     </modules>
   </component>
