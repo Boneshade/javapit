@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>concurrency_in_practice</module>
+        <module>data_structure</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
