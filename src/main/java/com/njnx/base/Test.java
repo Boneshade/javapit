@@ -7,13 +7,22 @@ package com.njnx.base;
 public class Test {
 
     public static void main(String[] args) {
-        Student student = new Student("徐博然"){
-            @Override
-            public String getName() {
-                return super.getName()+"6b";
-            }
-        };
-        System.out.println(student.getName());
+
+        binaryToDecimal(10);
+
+
+    }
+    public static void binaryToDecimal(int n){
+        int t = 0;  //用来记录位数
+        int bin = 0; //用来记录最后的二进制数
+        int r = 0;  //用来存储余数
+        while(n != 0){
+            r = n % 2;
+            n = n / 2;
+            bin += r * Math.pow(10,t);
+            t++;
+        }
+        System.out.println(bin);
     }
 
 }
