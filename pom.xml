@@ -6,6 +6,7 @@
     <modules>
         <module>concurrency_in_practice</module>
         <module>data_structure</module>
+        <module>spring_about</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
